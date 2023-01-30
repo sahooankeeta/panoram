@@ -1,0 +1,16 @@
+header{
+position:absolute;
+top: 0;
+left: 0;
+z-index: 10;
+padding: 30px 50px;
+width: 100%;
+}
+@media (max-width:500px){
+    header{
+        padding: 30px;
+    }
+    .logo{
+        height: 36px;
+    }
+}
